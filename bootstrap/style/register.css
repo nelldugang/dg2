@@ -1,0 +1,132 @@
+		 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Rubik|Paytone+One');
+
+		body {
+
+			font-family: 'Paytone One', cursive;
+			text-align: center;
+			font-size: 14px;
+			overflow: auto;
+				}
+			
+		.img-left, .img-right {
+			
+			width: 100%;
+			object-fit: cover;
+			height: 100%;
+			transform: scale(1, 1);
+			display: inline-block;
+		}
+		div {
+			padding-left: 0 !important;
+    		padding-right: 0 !important;
+		}
+		.logo {
+			width:20px;
+		}
+		#panel, #flip {
+		    padding: 5px;
+		    text-align: center;
+		    background-color: black; 
+		}
+		#panel {
+		    display: none;
+		}
+		#panel1, #flip1 {
+			white-space: nowrap;
+		    padding: 5px;
+		    text-align: center;
+		    background-color: black;   
+		}
+		#panel1 {
+		    display: none;
+		}
+		input {
+			height: 27px;
+			padding: 0px;
+			line-height: auto;
+		}
+		p{
+			padding: 0;
+			margin: 0;
+		}
+		.button1 {
+			position: absolute;
+		}
+		.button2 {
+			position: absolute;
+		}
+
+		.icons {
+			filter: contrast(40%);
+			padding:3px;
+			text-align: center;
+			width:17%;
+		}
+		.footer {
+			position: static;
+			bottom:20px;
+			margin-left: auto;
+			margin-right: auto;
+			left: 0;
+			right: 0;
+		}
+
+		.drop1 {
+			  left: 50%;
+			  right: auto;
+			  text-align: center;
+			  transform: translate(-50%, -40%);
+			  width: 500px !important;
+			  height: 330px !important;
+
+			}
+
+		.drop2 {
+			  left: 50%;
+			  right: auto;
+			  text-align: center;
+			  transform: translate(-50%, -40%);
+			  width: 300px !important;
+			  height: 250px !important;
+
+			}
+
+			li {
+				list-style-type: none;
+			}
+		a {
+			color: #bfbfbf;
+		    text-decoration: none;
+    	}	
+    	a:hover 
+		{
+		     color:#bfbfbf; 
+		     text-decoration:none; 
+		     cursor:pointer;  
+		}
+
+		/*.wave {
+			position: absolute;
+		}*/
+
+		.wave .img-left {
+
+		}
+
+		.wave2 {
+			position: relative;
+
+		}
+
+		.form {
+			background-color: black;
+			color: #bfbfbf;
+			position: relative;
+			background: linear-gradient(360deg, #000000, #00008B);
+		}	
+
+	/*	.wave2:before{
+			position: absolute;
+			content: '';
+			transform: skew(10deg);
+		}*/
